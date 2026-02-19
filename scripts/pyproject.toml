@@ -1,0 +1,20 @@
+[project]
+name = "pubflow-scripts"
+version = "0.1.0"
+description = "PubFlow pipeline management scripts"
+requires-python = ">=3.11"
+dependencies = [
+  "typer>=0.15",
+]
+
+[project.scripts]
+pubflow-new = "pubflow_scripts.new_idea:app"
+pubflow-promote = "pubflow_scripts.promote:app"
+pubflow-publish = "pubflow_scripts.publish:app"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.backends"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/pubflow_scripts"]

@@ -1,0 +1,12 @@
+{
+  "name": "pubflow-scripts",
+  "private": true,
+  "scripts": {
+    "new": "uv run pubflow-new",
+    "promote": "uv run pubflow-promote",
+    "publish": "uv run pubflow-publish",
+    "build": "echo 'no build step for scripts'",
+    "dev": "echo 'no dev step for scripts'",
+    "lint": "echo 'no lint step for scripts'"
+  }
+}
