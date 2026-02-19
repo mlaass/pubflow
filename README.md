@@ -13,7 +13,7 @@ A GitHub template for an agent-driven content pipeline. Content progresses throu
 
 ```bash
 # 1. Clone / use this template
-gh repo create my-company-blog --template pubflow
+gh repo create my-company-blog --template mlaass/pubflow
 cd my-company-blog
 
 # 2. Install dependencies
